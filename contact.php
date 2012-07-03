@@ -16,7 +16,7 @@
 				var dataString = 'namefield='+ $("#namefield").val() + '&emailfield=' + $("#emailfield").val() + '&descfield=' + $("#descfield").val();
 				$.ajax({  
 					type: "POST",  
-					url: "includes/email.php",  
+					url: "igniter/index.php",  
 					data: dataString,  
 					success: function() {
 						hideForm();
@@ -92,7 +92,7 @@
     <div class="foru_div"><!--4 u block-->
     <div style="float:left"><p class="then_text">4 u</p></div>
     <div class="form_div" id="formid">
-        <form name="form1" method="post" action="includes/email.php" id="formid">
+        <form name="form1" method="post" action="igniter/index.php" id="formid">
         <label for="namefield" class="form_labels">your name</label>
         <input type="text" name="namefield" id="namefield" onBlur="checkName();"><div class="fill_it" id="fill_name">Enter your name</div><br/>
         <label for="emailfield" class="form_labels">your email</label>
