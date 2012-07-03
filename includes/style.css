@@ -5,12 +5,22 @@
 	padding:0px;
 	top:0px;
 }
+#submitted {
+}
+
 .copyright {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 16px;
 	color: #999;
 	text-align: center;
 }
+.submitted_text {
+	font-family: 'Belgrano', serif;
+	text-align: center;
+	font-size: 24px;
+	color: #39C;
+}
+
 .about_img {
 	float: left;
 	margin-right: 40px;
@@ -262,7 +272,7 @@ input[type="text"]:focus, textarea:focus{
 	outline: none;
 }
 
-input[type="submit"]{
+input[type="button"]{
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-ms-border-radius: 3px;
@@ -289,7 +299,7 @@ input[type="submit"]{
 	color: #CCC;
 }
 
-input[type="submit"]:hover{
+input[type="button"]:hover{
 	-webkit-box-shadow: 0 0 2px #39C inset;
 	-moz-box-shadow: 0 0 2px #39C inset;
 	-ms-box-shadow: 0 0 2px #39C inset;
@@ -300,7 +310,7 @@ input[type="submit"]:hover{
 	color: #CCC;
 }
 
-input[type="submit"]:active{
+input[type="button"]:active{
 	background-color:#39C;	
 }
 
@@ -308,4 +318,10 @@ input[type="submit"]:active{
 	font-family: 'Belgrano', serif;
 	font-size: xx-large;
 	color: #666;
+}
+.fill_it {
+	color: #F00;
+	font-family: 'Belgrano', serif;
+	font-size: 16px;
+	display: inline;
 }
