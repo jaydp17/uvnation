@@ -11,6 +11,13 @@
 	color: #999;
 	text-align: center;
 }
+.about_img {
+	float: left;
+	margin-right: 40px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
 
 .footer_links {
 	font-family: Verdana, Geneva, sans-serif;
@@ -295,4 +302,10 @@ input[type="submit"]:hover{
 
 input[type="submit"]:active{
 	background-color:#39C;	
+}
+
+.about_title{
+	font-family: 'Belgrano', serif;
+	font-size: xx-large;
+	color: #666;
 }

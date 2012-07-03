@@ -19,7 +19,7 @@
       <nav>
       	<ul style="float:right">
       	<a id="ser" href="services.php" class="menu_links">services</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a id="pro" href="#" class="menu_links">profile</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a id="pro" href="profile.php" class="menu_links">profile</a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a id="con" href="contact.php" class="menu_links">contact</a>
         </ul>
       </nav>
