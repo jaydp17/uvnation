@@ -15,7 +15,7 @@
             <li class="social_item item"><a href="#"><img src="images/icons/twitter.png" /></a></li>
         	<li class="social_item item"><a href="#"><img src="images/icons/facebook.png"/></a></li>
         </ul></div>
-      <h2 style="clear:right"><a href="index.php" class="logo">{name};</a></h2>
+      <div style="clear:right"><a href="index.php" class="logo"><img src="images/logo.png" /></a></div>
       <nav>
       	<ul style="float:right">
       	<a id="ser" href="services.php" class="menu_links">services</a>&nbsp;&nbsp;&nbsp;&nbsp;
